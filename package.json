@@ -1,0 +1,20 @@
+{
+  "name": "discord-announcer-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that sends messages from a dedicated channel as DMs to all server members",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
